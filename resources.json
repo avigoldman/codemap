@@ -1,0 +1,51 @@
+{
+	"Resources": {
+		"Web Hosts": { 
+			"bluehost": "//www.bluehost.com/track/agoldman/Codemap",
+			"godaddy": "https://www.godaddy.com/"
+		},
+		"CMS": {
+			"weebly": "http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=",
+			"wordpress": "https://wordpress.org/",
+			"drupal": "https://www.drupal.org/",
+			"joomla": "http://www.joomla.org/"
+		},
+		"Front-end Development": {
+			"treehouse": "http://www.shareasale.com/r.cfm?u=1121120&b=418932&m=43811&afftrack=&urllink=teamtreehouse%2Ecom%2Ftracks%2Ffront%2Dend%2Dweb%2Ddevelopment",
+			"w3schools": "http://www.w3schools.com/website/default.asp",
+			"codecademy": "http://codecademy.com/en/tracks/web",
+			"general-assembly": "http://dash.generalassemb.ly",
+			"css-tricks": "https://css-tricks.com/",
+			"codrops": "http://tympanus.net/codrops/"
+		},
+		"PHP Development": {
+			"treehouse": "http://www.shareasale.com/r.cfm?u=1121120&b=418932&m=43811&afftrack=&urllink=teamtreehouse%2Ecom%2Ftracks%2Fphp%2Ddevelopment",
+			"w3schools": "http://www.w3schools.com/php/default.asp",
+			"codecademy": "http://www.codecademy.com/en/tracks/php",
+			"tutorial-republic": "http://www.tutorialrepublic.com/php-tutorial/",
+			"php.net": "http://php.net/",
+			"phpacademy": "https://phpacademy.org/"
+		}
+	},
+	"Want to learn more?": {
+		"JavaScript Libraries and Frameworks": {
+			"jquery": "http://jquery.com/",
+			"angular": "https://angularjs.org/",
+			"mootools": "http://mootools.net/",
+			"backbone": "http://backbonejs.org/"
+		},
+		"Front-end Frameworks": {
+			"bootstrap": "http://getbootstrap.com/",
+			"foundation-zurb": "http://foundation.zurb.com/",
+			"semantic-ui": "http://semantic-ui.com/",
+			"purecss": "http://purecss.io/"
+		},
+		"PHP Frameworks": {
+			"cakephp": "http://cakephp.org/",
+			"laravel": "http://laravel.com/",
+			"codeigniter": "http://www.codeigniter.com/",
+			"phalcon": "http://phalconphp.com/en/",
+			"symfony": "https://symfony.com/"
+		}
+	}
+}

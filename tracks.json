@@ -1,0 +1,153 @@
+{
+  "Simple Websites": {
+      "header": {
+          "title": "Build a Simple Website",
+          "content": "To build a website, all you need to do is sign up for <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=\">Weebly</a>, choose a template, and start dropping elements on to your new website.But if you want to create a <b>unique</b>, <b>interactive</b>, and <b>personalized</b> website it's a little bit harder.This map will lead you on a path that will teach you to code custom websites and create templates for <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=\">Weebly</a>."
+      },
+      "timeline": {
+          "CMS": {
+              "content": "CMS stands for Content Management System. Essentially, that is a way to change the content of your website without having to code anything. Think about it like a form that you fill out. The content in the form changes but the form itself does not. To see this in action check out <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=\">Weebly</a>, a Drag and Drop CMS. Try it out to get a feel for how websites are managed. It's free!",
+              "resources": {
+                  "Try out Weebly!": "http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack="
+              }
+          },
+          "HTML": {
+              "content": "HTML is the foundation of all websites. It provides the structure for the page, ordering where each element sits relative to the others. In a human body, the HTML is the skeleton - it is the base of everything.",
+              "resources": {
+                  "General Assembly": "https://dash.generalassemb.ly",
+                  "Codecademy Web": "http://www.codecademy.com/tracks/web",
+                  "w3schools HTML": "http://www.w3schools.com/html/"
+              }
+          },
+          "CSS": {
+              "content": "If HTML is the skeleton, CSS is the muscles, skin, and clothes. CSS is what makes a website pretty. It centers text, sets the background color, chooses the font; it is where you design your website.",
+              "resources": {
+                  "General Assembly": "https://dash.generalassemb.ly",
+                  "Codecademy Web": "http://www.codecademy.com/tracks/web",
+                  "w3schools CSS": "http://www.w3schools.com/CSS/"
+              }
+          },
+          "JavaScript": {
+              "content": "JavaScript is the last component every website uses. JavaScript is the brains of the operation. It's the code that makes a pop-up when you click a button. If you want anything to happen on the screen, JavaScript is your guy.",
+              "resources": {
+                  "General Assembly": "https://dash.generalassemb.ly",
+                  "Codecademy Javascript": "http://www.codecademy.com/tracks/javascript",
+                  "w3schools JavaScript": "http://www.w3schools.com/javascript/"
+              }
+          },
+          "Designing Templates": {
+              "content": "When you're on <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=\">Weebly</a> the template you choose is your form, and the elements you drag and drop are the form entry. Now that you know HTML, CSS, and JavaScript you can create your own <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=\">Weebly</a> template! This means that you will design a website and use Weebly's custom codes to make the areas that you will drag and drop your elements into.",
+              "resources": {
+                  "Offical Docs": "http://www.weebly.com/editor/codeEditorDocs.php"
+              }
+          }
+      }
+  },
+  "Complex Websites": {
+      "header": {
+          "title": "Build a Complex Website",
+          "content": "In this track we will discuss how to build more complicated websites. Our websites on <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=\">Weebly</a> didn't really do anything. They could interact with JavaScript, but they didn't remember anything about the users, or provide a service. We're going to map out how to use the same technologies that power Facebook. I am really sorry about this but there is a lot of setup for learning this :( I will try to make this as painless as possible."
+      },
+      "timeline": {
+          "Get a Local Server": {
+              "content": "A server is essentially a computer that other computers can request files from. When you go to http://google.com you are requesting a file from Google's servers. In order to run our PHP code we need a local server. We can download a server on to our own computer. It's free and fairly easy to set up. Once its up and running, only you can access it - thats why it's a \"local\" server.",
+              "resources": {
+                  "Windows: WAMP": "https://www.youtube.com/watch?v=3j5lxcV_320",
+                  "Mac: MAMP": "https://www.youtube.com/watch?v=cdZWUJzdcDk"
+              }
+          },
+          "Code Editor": {
+              "content": "Now that we have everything setup for the server, we can prepare for writing our code. This part is really quick, trust me. All we need is Sublime Text, a simple code editor.",
+              "resources": {
+                  "Install Sublime Text": "http://www.sublimetext.com/"
+              }
+          },
+          "Start with the Actual Code": {
+              "content": "There are two things that we will learn: PHP and MySQL. I am not going to go into these two programming languages, but no worries, the tutorials will. Important detail! Everything you learned making simple websites is still required. Like math (sorry), programming builds on top of itself.",
+              "resources": {
+                  "Tutorial Republic": "http://www.tutorialrepublic.com/php-tutorial/",
+                  "w3schools PHP": "http://www.w3schools.com/php/default.asp",
+                  "PHP.net": "http://php.net/",
+                  "phpacademy": "https://phpacademy.org/"
+              }
+          },
+          "Databases": {
+              "content": "In case you missed it because it was not explicitly explained in some of tutorials, MySQL is a query language for databases. the following tutorials will show you how to create, modify and access databases. Enjoy! This adds a lot of power to your creations.",
+              "resources": {
+                  "What is MySQL": "https://www.youtube.com/watch?v=6pbxQQG25Jw",
+                  "Create a database": "https://www.youtube.com/watch?v=VT7upbeMtXc",
+                  "w3schools MySQL": "http://www.w3schools.com/sql/default.asp"
+              }
+          },
+          "Get a Web Server - Share Your Creation with the World": {
+              "content": "In order to put our website online we need a public server. You are probably thinking, \"but we used Weebly and that put our websites on the Internet\". True, but <a target=\"_blank\" href=\"http://www.shareasale.com/r.cfm?b=358504&u=1121120&m=37723&urllink=&afftrack=\">Weebly</a> doesn't allow you to use PHP or MySQL - the tools that we will used to build our website. We could configure our home network to have a static IP and do a bunch of other extremly techie things to make our computer act as a server, but it would take a ton of time and money and it really would not be worth it. Instead, we can pay for a host who will provide us with everything we need. <a target=\"_blank\" target=\"_blank\" href=\"//www.bluehost.com/track/agoldman/Codemap\">Bluehost</a> is a relatively cheap host. Their lowest price is $3.95/month which is basically a couple slices of pizza. We want the shared hosting, which allows you to host unlimited websites which should be enough. When we sign up we get one free domain name. Lets get started!",
+              "resources": {
+                  "Sign up for Bluehost": "//www.bluehost.com/track/agoldman/Codemap"
+              }
+          },
+          "Install a FTP Program": {
+              "content": "Now that we have our server we need to connect to it. We want a program to manage the files, just like we have been on our own computer. This program is called an FTP, or File Transfer Protocol, because it transfers files using specific protocols  . I know, crazy. The following 4 tutorials will show you how to set up Filezilla for a bluehost server. Don't worry, they're only a few minutes each.",
+              "resources": {
+                  "1. Create an FTP Account": "https://www.youtube.com/watch?v=sDLSVfYhs4I",
+                  "2. Download Filezilla": "https://filezilla-project.org/download.php?type=client",
+                  "2. Connect Filezilla to your server": "https://www.youtube.com/watch?v=YqG7oy4qJ_U",
+                  "3. Upload Files using Filezilla": "https://www.youtube.com/watch?v=YqG7oy4qJ_U"
+              }
+          },
+          "Transfer your work to the World Wide Web": {
+              "content": "This is a two step process. Number one, upload all your files. Number two, export your database from your local server and import it into your Bluehost server.",
+              "resources": {
+                  "Exporting and Importing your Database": "http://www.techrepublic.com/blog/smb-technologist/import-and-export-databases-using-phpmyadmin/"
+              }
+          },
+          "Congratulations": {
+              "content": "You should now know the basics of HTML, CSS, Javascript, PHP and MySQL. Hopefully you have a base to build your knowledge on and you know what you are looking at now. <br> Now for the fun stuff. Send every person you know a link to your website, because its awesome!",
+              "resources": {}
+          }
+      }
+  },
+  "WordPress": {
+      "header": {
+          "title": "Build a WordPress Website",
+          "content": "WordPress is the happy medium between using Weebly and writing PHP websites from scratch. It is a powerful CMS built using PHP and MySQL. It does everything Weebly does, and so much more. Its plugins can add infinite functionally to websites, from e-commerce to cat pictures. In fact, it powers website ranging from Usain Bolt's website to the official site of Sweden."
+      },
+      "timeline": {
+          "Get a Web Server": {
+              "content": "First thing, you need a web server. If you don't have one get one. You can see more about this in the <a href=\"./track.php?track=Complex+Websites\">Complex Websites</a> track.",
+              "resources": {
+                  "Sign up for Bluehost": "//www.bluehost.com/track/agoldman/Codemap"
+              }
+          },
+          "Install Wordpress": {
+              "content": "Now that we have our server, we can get on to WordPress. Bluehost makes it easy to install and step up. By the time you finish this 3 minute video you will have a brand new website up and running.",
+              "resources": {
+                  "Installing WordPress Tutorial": "https://my.bluehost.com/cgi/help/wp_install"
+              }
+          },
+          "Get an Overview": {
+            "content": "WordPress is a powerful tool, but it can be overwhelming. The first link, from the creators of WordPress demonstrates that well. The second link gives a much clearer idea of what you are going into. In fact, to fully understand WordPress I suggest going through the entire second tutorial by Level Up Tutorials. This tutorial gives a comprehensive view on everything you need to know about WordPress as a non-developer.",
+            "resources": {
+              "First Steps into WordPress": "https://codex.wordpress.org/First_Steps_With_WordPress",
+              "WordPress Tutorials": "http://leveluptuts.com/tutorials/wordpress-basics/3-introduction-wordpress",
+              "Team Treehouse": "http://www.shareasale.com/r.cfm?u=1121120&b=418932&m=43811&afftrack=&urllink=teamtreehouse%2Ecom%2Ftracks%2Flearn%2Dwordpress"
+            }
+          },
+          "Developer's Guide": {
+            "content": "Developing for WordPress is beyond the scope of this track. I will just say this: you are learning to program something that powers millions of websites. It's a long path, but it is worth it in the long run.",
+            "resources": {
+              "Team Treehouse": "http://www.shareasale.com/r.cfm?u=1121120&b=418932&m=43811&afftrack=&urllink=teamtreehouse%2Ecom%2Ftracks%2Fwordpress%2Ddevelopment"
+            }
+          },
+          "WordPress is Crazy": {
+            "content": "WordPress is a massive platform. I can't stress that enough. While there are clear paths for learning it, there are many different directions to go in. Different WordPress tutorials tend to take you on clearly defined paths. The following tutorials all have a goal or direction for you to go in to further your education. I suggest you check them all out and follow the one that interests you the most.",
+            "resources": {
+              "Smashing Magazine": "http://www.smashingmagazine.com/2012/08/23/how-to-become-a-top-wordpress-developer/",
+              "Team Treehouse: Learn WordPress": "http://www.shareasale.com/r.cfm?u=1121120&b=418932&m=43811&afftrack=&urllink=teamtreehouse%2Ecom%2Ftracks%2Flearn%2Dwordpress",
+              "Team Treehouse: WordPress Development": "http://www.shareasale.com/r.cfm?u=1121120&b=418932&m=43811&afftrack=&urllink=teamtreehouse%2Ecom%2Ftracks%2Fwordpress%2Ddevelopment",
+              "Level up Tutorials: Wordpress Basics": "http://leveluptuts.com/tutorials/wordpress-basics/3-introduction-wordpress",
+              "wpmudev: Making Money with WordPress": "http://premium.wpmudev.org/blog/web-hosting-design-business-wordpress-multisite/"
+            }
+          }
+      }
+  }
+}
