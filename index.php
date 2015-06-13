@@ -27,7 +27,7 @@
 		<div class="row">
 		<?php for ($i=0; $i < count($tracks); $i++): ?>
 		<div class="col-4 track">
-			<h3><?=$tracks[$i][0]?></h3><span class="index entypo-dot"> <?=$i+1?> </span>
+			<h3><?=$tracks[$i][0]?></h3>
 			<p><?=$tracks[$i][1]?></p>
 			<a href="track.php?track=<?=urlencode($tracks[$i][0])?>" class="button">Get Started!</a>
 		</div>
