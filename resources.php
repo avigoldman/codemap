@@ -1,6 +1,7 @@
+<?php $page_title = "Resources"; ?>
 <?php require_once('template/header.php'); ?>
 <?php 
-	$sections = json_decode(file_get_contents('resources.json'), true);
+	$sections = json_decode(file_get_contents('data/resources.json'), true);
 ?>
 <div class="row title">
 	<div class="col-12 no-padding">

@@ -1,15 +1,16 @@
-<?php require_once('template/header.php'); ?>
 <?php 
-	$tracks = json_decode(file_get_contents('tracks.json'), true);
+	$tracks = json_decode(file_get_contents('data/tracks.json'), true);
 
 
 	if (isset($_GET['track']) && isset($tracks[urldecode($_GET['track'])]))
 		$track = $tracks[urldecode($_GET['track'])];
 	else
-		header('Location: ./coming-soon.php');
+		header('Location: /coming-soon.php');
 
 	$index = 0;
 ?>
+<?php $page_title = $track['header']['title']; ?>
+<?php require_once('template/header.php'); ?>
 <div class="row title">
 	<div class="col-12 no-padding">
 		<h2><?=$track['header']['title']?></h2>

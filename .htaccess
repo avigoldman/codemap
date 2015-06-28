@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.codemap\.co$
+RewriteRule ^/?$ "http\:\/\/codemap\.co\/" [R=301,L]
+
+RewriteRule ^track/([^/]*)\.php$ track.php?track=$1 [L]

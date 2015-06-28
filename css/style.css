@@ -93,8 +93,16 @@ header #logo {
 	font-size: 2em;
 	font-weight: 300;
 	text-decoration: none;
-	color: inherit;	
 	border-width: 0;
+	line-height: inherit;
+}
+
+header #logo a {
+	color: inherit;	
+}
+
+header #logo a:hover {
+	border: transparent;
 }
 
 header #logo span {
@@ -196,6 +204,12 @@ header nav a:hover {
 
 .call-to-action h3 {
 	height: 60px;
+}
+
+.call-to-action .overlay {
+	height:100%;
+	width:100%;
+	background:rgba(255,255,255,.3);
 }
 
 

@@ -1,3 +1,4 @@
+<?php $page_title = "Coming Soon"; ?>
 <?php require_once('template/header.php'); ?>
 <div class="row title">
 	<div class="col-12 no-padding text-center">

@@ -1,6 +1,6 @@
 <?php require_once('template/header.php'); ?>
 <div class="call-to-action">
-		<div style="height:100%;width:100%;background:rgba(255,255,255,.3);">
+		<div class="overlay">
     <div class="vertical-align row">
       <h2>Find your path and discover the world of code!</h2>
       <br>
@@ -29,7 +29,7 @@
 		<div class="col-4 track">
 			<h3><?=$tracks[$i][0]?></h3>
 			<p><?=$tracks[$i][1]?></p>
-			<a href="track.php?track=<?=urlencode($tracks[$i][0])?>" class="button">Get Started!</a>
+			<a href="track/<?=urlencode($tracks[$i][0])?>.php" class="button">Get Started!</a>
 		</div>
 		<?php if (($i+1)%3 == 0):?>
 			</div>

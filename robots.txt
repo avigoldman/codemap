@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+Disallow: /template/
+Disallow: /data/

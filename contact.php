@@ -1,3 +1,4 @@
+<?php $page_title = "Contact"; ?>
 <?php require_once('template/header.php'); ?>
 <div id="content">
 	<div class="row">
